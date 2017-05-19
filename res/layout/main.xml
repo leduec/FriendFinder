@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >
+                            
+  <TextView  
+    style="@style/TextStyleHeadline"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"   
+    android:text="@string/txt_main_choose" />     
+      
+  <Button 
+    android:id="@+id/button_sendPosition"   
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"    
+    android:text="@string/button_sendPosition"
+    android:onClick="onClickSendPosition" />
+      
+  <Button 
+    android:id="@+id/button_geoContactList" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/button_geocontacts"
+    android:onClick="onClickGeoContactList" />
+      
+  <Button 
+    android:id="@+id/button_showMap" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/button_showMap"        
+    android:onClick="onClickShowMap" />
+    
+</LinearLayout>

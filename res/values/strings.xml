@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">FriendFinder</string>
+
+  <!-- Buttons -->
+  <string name="button_sendPosition">Send Position</string>
+  <string name="button_geocontacts">Geocontacts</string>
+  <string name="button_showMap">Show Map</string>
+  
+  <!-- Menuoptions -->
+  <string name="menu_geocontactNew">New</string>
+  <string name="menu_geocontactEdit">Edit</string>
+  <string name="menu_geocontactDelete">Delete</string>
+  <string name="menu_geocontactImport">Import</string>
+  <string name="menu_geocontactCall">Call Geocontact</string>
+  <string name="menu_startNavigation">Start Navigation</string>
+  <string name="menu_showHelp">Help</string>
+  <string name="menu_editSettings">Settings</string>
+  <string name="menu_sendPosition">Send Position</string>
+  <string name="menu_save">Save</string>
+  <string name="menu_friendFinderExit">Quit</string>
+  
+  <!-- Main -->
+  <string name="txt_main_choose">Choose an action:</string>
+  
+  <!-- GeocontactList -->
+  <string name="txt_geocontact_list_title">Geocontact</string>
+  <string name="txt_geocontact_list_chooseContact">Choose Contact</string>  
+  <string name="txt_geocontact_list_noData">No Geocontacts are found!</string>
+
+  <!-- GeocontacteShow -->
+  <string name="txt_geocontact_show_title">Geocontact</string>
+  <string name="txt_geocontact_show_intro">Details of the geocontact</string>
+  
+  <!-- GeocontactEdit -->
+  <string name="txt_geocontact_edit_title">Geocontact</string>
+  <string name="txt_geocontact_edit_intro">Edit the geocontact</string>
+  
+  <!-- Geocontact common -->
+  <string name="txt_geocontact_name">Name:</string>
+  <string name="txt_geocontact_cellnumber">Cell number:</string>
+  <string name="txt_geocontact_last_position">Last Position:</string>
+  <string name="txt_geocontact_note">Note:</string>
+  <string name="txt_geocontact_date">Date:</string>
+  
+  <!-- SendPosition -->
+  <string name="txt_SendPosition_title">Send Position</string>  
+  <string name="txt_SendPosition_intro">Send your position to a geocontact</string>
+
+   <!-- ShowMap -->
+  <string name="txt_map_show_title">Map of Geocontacts</string>
+  <string name="txt_map_show_intro">Positions are shown</string>
+ 
+</resources>

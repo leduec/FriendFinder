@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+  <TextView
+    android:id="@+id/txt_name_label"
+    android:text="@string/txt_geocontact_name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true" />
+  <TextView
+    android:id="@+id/txt_name"
+    android:text=""
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="21sp"
+    android:layout_below="@id/txt_name_label" />
+    
+  <TextView
+    android:id="@+id/txt_telephone_label"
+    android:text="@string/txt_geocontact_cellnumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/txt_name" />
+  <TextView
+    android:id="@+id/txt_telephone"
+    android:text="3457"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="21sp"
+    android:inputType="phone"
+    android:layout_below="@id/txt_telephone_label" />
+    
+  <TextView
+    android:id="@+id/txt_note_label"
+    android:text="@string/txt_geocontact_note"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/txt_telephone" />
+  <EditText
+    android:id="@+id/txt_note"
+    android:text="Find me!"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textCapWords"
+    android:layout_below="@id/txt_note_label" />
+
+  <TextView
+    android:id="@+id/txt_last_position_label"
+    android:text="@string/txt_geocontact_last_position"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/txt_note" />
+  <TextView
+    android:id="@+id/txt_last_position"
+    android:text="100' 2'' long 88' 23'' lat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/txt_last_position_label" />
+
+  <Button
+    android:id="@+id/button_sendPosition"
+    android:text="@string/button_sendPosition"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/txt_last_position"
+    android:onClick="onClickSendPosition" />
+        
+</RelativeLayout>

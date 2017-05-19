@@ -1,0 +1,19 @@
+<menu xmlns:android=
+    "http://schemas.android.com/apk/res/android">
+  <item
+    android:id="@+id/menu_geocontactNew"
+    android:title="@string/menu_geocontactNew"
+    android:icon="@android:drawable/ic_menu_add"
+  />
+  <item
+    android:id="@+id/menu_geocontactImport"
+    android:title="@string/menu_geocontactImport"
+    android:icon="@drawable/ic_menu_friendslist"
+  />
+  <item
+    android:id="@+id/menu_showHelp"
+    android:title="@string/menu_showHelp"
+    android:icon="@android:drawable/ic_menu_help"
+  />
+  
+</menu>

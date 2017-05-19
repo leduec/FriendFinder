@@ -1,0 +1,23 @@
+<menu xmlns:android=
+  "http://schemas.android.com/apk/res/android">
+  <item
+    android:id="@+id/menu_startNavigation"
+    android:title="@string/menu_startNavigation"
+    android:icon="@android:drawable/ic_menu_directions"    
+  />
+  <item
+    android:id="@+id/menu_geocontactCall"
+    android:title="@string/menu_geocontactCall"
+    android:icon="@android:drawable/ic_menu_call"    
+  />
+  <item
+    android:id="@+id/menu_sendPosition"
+    android:title="@string/menu_sendPosition"
+    android:icon="@android:drawable/ic_menu_send" 
+  />  
+  <item
+    android:id="@+id/menu_showHelp"
+    android:title="@string/menu_showHelp"
+    android:icon="@android:drawable/ic_menu_help"
+  />
+</menu>

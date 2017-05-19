@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FriendFinderTheme"
+        parent="android:Theme.Light">  
+        <item name="android:windowBackground">@color/background</item>    
+        <item name="android:textViewStyle">@style/TextStyleNormal</item>  
+        <item name="android:listViewStyle">@style/ListView</item>       
+        <item name="android:buttonStyle">@style/Button</item>                               
+    </style>  
+   
+    <style name="TextStyleNormal">
+        <item name="android:textSize">18sp</item>   
+        <item name="android:textColor">@color/textcolor</item>
+    </style>
+    
+    <style name="TextStyleHeadline"
+           parent="@style/TextStyleNormal">
+        <item name="android:textSize">24sp</item>           
+        <item name="android:gravity">center</item>   
+        <item name="android:paddingTop">10dp</item> 
+	    <item name="android:paddingBottom">10dp</item> 
+    </style>
+    
+    <style name="ListView" 
+           parent="android:Widget.ListView">  
+        <item name="android:listSelector">@drawable/arrow</item>               
+    </style>
+    
+    <style name="ButtonText"
+           parent="android:Widget.TextView">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textStyle">bold</item> 		
+	</style>
+	
+    <style name="Button" 
+           parent="android:Widget.Button">        
+		<item name="android:textAppearance">@style/ButtonText</item>		
+    </style>
+        
+</resources>
